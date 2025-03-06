@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Carnivorous', 'Herbivorous']
+
+roboflow:
+  workspace: aprendizajemaquinas-j8lnx
+  project: carnivore-and-herbivore-animals
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aprendizajemaquinas-j8lnx/carnivore-and-herbivore-animals/dataset/10
